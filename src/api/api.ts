@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
 // export const BASE_URL = import.meta.env.VITE_BASE_URL;
-export const BASE_URL = "https://faceai.dsrt321.online";
+export const BASE_URL = "https://faceapi.dsrt321.online";
 
 export const API = axios.create({
     baseURL: `${BASE_URL}`,
